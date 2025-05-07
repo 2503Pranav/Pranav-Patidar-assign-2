@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AspireEdge Tuition Center</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    section { padding: 40px 20px; border-bottom: 1px solid #ddd; }
+    .logo img { height: 60px; }
+    nav ul { display: flex; gap: 20px; list-style: none; padding: 0; }
+    nav a { text-decoration: none; color: #333; }
+    .facility-img { width: 100%; max-width: 400px; margin: 10px 0; }
+    .testimonial { margin-bottom: 20px; }
+    .banner img { width: 100%; height: auto; }
+    .banner-text { position: relative; top: -200px; color: white; background: rgba(0,0,0,0.5); padding: 20px; }
+    form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
+    input, textarea { padding: 10px; width: 100%; }
+    button { padding: 10px 20px; background-color: #007bff; color: white; border: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png.png" alt="AspireEdge Logo" /> 
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#coaching">Coaching</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    
+    <div class="banner-text">
+      <h1>Welcome to AspireEdge Tuition Center</h1>
+      <p>Empowering students to excel in academics with expert teaching!</p>
+    </div>
+  </section>
+
+  <section id="coaching" class="coaching-facilities">
+    <h1>Welcome TO AspireEdge</h1>
+    <p> we specialize in Maths and English coaching for students from Classes 6 to 12. 
+       Our mission is to simplify learning through personalized attention, flexible class timings, and effective teaching strategies.
+       We focus on how each student understands best and work on techniques to help them recall concepts quickly and accurately.
+      Our expert faculty believes in building strong foundations with clarity and confidence.<br>
+      To make learning even easier, we create simple, well-structured formula sheets and notes designed to boost retention.<br>
+       At AspireEdge, we don’t just teach — we help students truly learn and excel.</p>
+    <div class="coaching-benefits">
+      
+     <br>
+     <h1>Classes</h1>
+  <section id="classes" class="classes-overview">
+    <div class="class-item">
+      <h3>Class 6th - 8th</h3>
+      <p>Subjects: Mathematics, English</p>
+      <p>Price: ₹1500/month</p>
+    </div>
+
+    <div class="class-item">
+      <h3>Class 9th - 10th</h3>
+      <p>Subjects: Mathematics, English, </p>
+      <p>Price: ₹1700/month</p>
+    </div>
+
+    <div class="class-item">
+      <h3>Class 11th - 12th</h3>
+      <p>Subjects:  Mathematics, English</p>
+      <p>Price: ₹2000/month</p>
+    </div>
+  </section>
+
+  
+    <img src="classroom1.png" alt="Classroom" height="250px" class="facility-img" />
+    <img src="doubt solving with faculty.png" alt="Online Learning" height="-250px" class="facility-img" /> <br>
+    <a href="https://maps.app.goo.gl/8gVKJPiXNTCjShq66">Visit Us</a>
+  </section>
+
+  <section id="features" class="features">
+    <div class="coaching-benefits">
+      <h2>Our Key Benefits:</h2>
+      <ul><h3>
+        <li>Expert-Led Math Classes</li>
+        <li>Missed a Class? No Problem! (Backup classes)</li>
+        <li>Concept Clarity + Exam Focus</li>
+        <li>Test Series (20 Full-Length Mocks)</li>
+        <li>Individual Focus and Personal Feedback</li>
+        <li>Doubt Solving Sessions (Online + Offline)</li>
+        <li>Career & Exam Guidance</li>
+        <li>Well-Structured Notes & Assignments</li> </h3>
+      </ul> 
+    </div>
+     <br>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h1>⭐ Student & Parent Testimonials</h1>
+    <div class="testimonial">
+      <p>🗣 <strong>Riya Sharma – Class 12 Student (CBSE)</strong><br>
+        "Mohit sir's way of explaining complex maths concepts is simply amazing. I used to fear calculus, but now it's my strongest topic!"
+      </p>
+    </div>
+    <div class="testimonial">
+      <p>🗣 <strong>Aditya Mehta – Class 11 Student</strong><br>
+        "Even if I miss a session, the backup classes and doubt sessions ensure I never fall behind. AspireEdge is the best decision I made."
+      </p>
+    </div>
+    <div class="testimonial">
+      <p>🗣 <strong>Neha Jain – Parent of Class 10 Student</strong><br>
+        "AspireEdge’s individual focus and regular updates helped us stay involved and confident in our child’s progress."
+      </p>
+    </div>
+    <div class="testimonial">
+      <p>🗣 <strong>Tushar Patel – Class 12 Student (State Board)</strong><br>
+        "The 20-mock test series was a game-changer. It trained me to manage time during exams and reduce silly mistakes."
+      </p>
+    </div>
+    <div class="testimonial">
+      <p>🗣 <strong>Simran Kapoor – Class 10 Student</strong><br>
+        "Thanks to Mohit sir’s friendly teaching style and notes, I now score above 90 in all class tests."
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AspireEdge Tuition Center | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
